@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Контрольная работа</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="photo/ico.png" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header class="header">
+        <div>
+            <p class="head">
+                <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcREd-MXqLbhc2UoH04eOwGTzP1lLZEuFsheMS3JBe__Mv3PlsBR" width="40" height="40" />
+                Nomad list
+            </p>
+            <p class="podzagolowok">
+                Best cities to live and work remotely
+            </p>
+        </div>
+    </header>
+
+    <main class="main">    
+       
+        <div id="city-buttons-container"></div>
+    </main>
+
+   
+    <dialog id="city-dialog">
+        <div class="dialog-container">
+            <button id="close-dialog">X</button>
+            <img id="dialog-city-image" alt="City Image" class="dialog-image" />
+            <div class="dialog-details">
+                <h2 id="dialog-city-name" class="dialog-city-name"></h2>
+                <div class="dialog-tags">
+                    <span id="dialog-tags"></span>
+                    <span id="dialog-score" class="dialog-score"></span>
+                </div>
+                <ul id="dialog-stats" class="dialog-stats"></ul>
+            </div>
+        </div>
+    </dialog>
+    
+
+  
+    <script src="script.js" defer></script>
+</body>
+</html>
